@@ -1,0 +1,24 @@
+{
+  "name": "wordpress-environment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "wp-env": "wp-env",
+    "wp-start": "wp-env start",
+    "wp-update": "wp-env start --update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsuchiya-kai/wordpress-environment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsuchiya-kai/wordpress-environment/issues"
+  },
+  "homepage": "https://github.com/tsuchiya-kai/wordpress-environment#readme",
+  "devDependencies": {
+    "@wordpress/env": "^4.0.5"
+  }
+}
